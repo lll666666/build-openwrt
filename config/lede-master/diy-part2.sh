@@ -27,7 +27,7 @@ sed -i 's/192.168.1.1/192.168.31.2/g' package/base-files/files/bin/config_genera
 # svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/luci-app-amlogic
 # echo 'src-git clash https://github.com/vernesong/OpenClash/tree/master/luci-app-openclash' >>feeds.conf.default
 echo 'src-git istore https://github.com/linkease/istore' >>feeds.conf.default
-svn co https://github.com/vernesong/OpenClash/tree/master/luci-app-openclash package/luci-app-openclash
+svn co https://github.com/lll666666/666 package/luci-app-openclash
 
 
 # Fix runc version error
