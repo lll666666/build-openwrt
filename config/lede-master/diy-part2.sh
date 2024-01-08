@@ -22,13 +22,17 @@ sed -i 's/192.168.1.1/192.168.31.2/g' package/base-files/files/bin/config_genera
 # ------------------------------- Main source ends -------------------------------
 
 # ------------------------------- Other started -------------------------------
-#
+
+
 # Add luci-app-amlogic
 # svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/luci-app-amlogic
 # echo 'src-git clash https://github.com/vernesong/OpenClash/tree/master/luci-app-openclash' >>feeds.conf.default
 echo 'src-git istore https://github.com/linkease/istore' >>feeds.conf.default
 svn co https://github.com/lll666666/666 package/luci-app-openclash
 
+cd package/lean
+rm -rf luci-theme-argon
+git clone https://github.com/jerrykuku/luci-theme-argon.git luci-theme-argon
 
 # Fix runc version error
 # rm -rf ./feeds/packages/utils/runc/Makefile
