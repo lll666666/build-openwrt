@@ -23,7 +23,21 @@ echo "DISTRIB_SOURCECODE='official'" >>package/base-files/files/etc/openwrt_rele
 # ------------------------------- Other started -------------------------------
 #
 # Add luci-app-amlogic
-svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/luci-app-amlogic
+# svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/luci-app-amlogic
+svn co https://github.com/lll666666/666 package/luci-app-openclash
+src-git-full packages https://github.com/jjm2473/packages.git^b26cfeee1
+src-git-full luci https://github.com/jjm2473/luci.git^5b482a70ba
+src-git-full routing https://git.openwrt.org/feed/routing.git^777c115
+src-git-full telephony https://git.openwrt.org/feed/telephony.git^8143d9d
+src-git store https://github.com/linkease/istore.git^4c5098f
+src-git third https://github.com/jjm2473/openwrt-third.git^4a0f27e
+src-git third_party https://github.com/linkease/istore-packages.git^3874e89
+src-git diskman https://github.com/jjm2473/luci-app-diskman.git^113509f
+src-git oaf https://github.com/jjm2473/OpenAppFilter.git^d8663f9
+src-git linkease_nas https://github.com/linkease/nas-packages.git^87bf6e6
+src-git linkease_nas_luci https://github.com/linkease/nas-packages-luci.git^f9869e2
+src-git jjm2473_apps https://github.com/jjm2473/openwrt-apps.git^fae9cde
+
 
 # coolsnowwolf default software package replaced with Lienol related software package
 # rm -rf feeds/packages/utils/{containerd,libnetwork,runc,tini}
