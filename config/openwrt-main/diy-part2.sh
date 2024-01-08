@@ -25,6 +25,7 @@ sed -i 's/192.168.1.1/192.168.31.2/g' package/base-files/files/bin/config_genera
 # Add luci-app-amlogic
 # svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/luci-app-amlogic
 # echo 'src-git istore https://github.com/linkease/istore' >>feeds.conf.default
+> feeds.conf.default
 echo 'src-git packages https://github.com/jjm2473/packages.git' >>feeds.conf.default
 echo 'src-git luci https://github.com/jjm2473/luci.git' >>feeds.conf.default
 echo 'src-git routing https://git.openwrt.org/feed/routing.git' >>feeds.conf.default
