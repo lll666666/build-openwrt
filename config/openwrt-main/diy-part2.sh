@@ -51,7 +51,7 @@ echo 'src-git oaf https://github.com/jjm2473/OpenAppFilter.git' >>feeds.conf.def
 echo 'src-git linkease_nas https://github.com/linkease/nas-packages.git' >>feeds.conf.default
 echo 'src-git linkease_nas_luci https://github.com/linkease/nas-packages-luci.git' >>feeds.conf.default
 echo 'src-git jjm2473_apps https://github.com/jjm2473/openwrt-apps.git' >>feeds.conf.default
-svn co https://github.com/lll666666/666 package/luci-app-openclash
+svn co https://github.com/1877574385/luci-app-openclash package/luci-app-openclash
 
 
 # coolsnowwolf default software package replaced with Lienol related software package
