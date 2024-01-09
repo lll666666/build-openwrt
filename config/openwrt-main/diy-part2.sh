@@ -39,18 +39,18 @@ sed -i 's/192.168.1.1/192.168.31.2/g' package/base-files/files/bin/config_genera
 # echo 'src-git linkease_nas_luci https://github.com/linkease/nas-packages-luci.git^f9869e2' >>feeds.conf.default
 # echo 'src-git jjm2473_apps https://github.com/jjm2473/openwrt-apps.git^fae9cde' >>feeds.conf.default
 
-echo 'src-git packages https://github.com/jjm2473/packages.git' >>feeds.conf.default
-echo 'src-git luci https://github.com/jjm2473/luci.git' >>feeds.conf.default
-echo 'src-git routing https://git.openwrt.org/feed/routing.git' >>feeds.conf.default
-echo 'src-git telephony https://git.openwrt.org/feed/telephony.git' >>feeds.conf.default
-echo 'src-git store https://github.com/linkease/istore.git' >>feeds.conf.default
-echo 'src-git third https://github.com/jjm2473/openwrt-third.git' >>feeds.conf.default
-echo 'src-git third_party https://github.com/linkease/istore-packages.git' >>feeds.conf.default
-echo 'src-git diskman https://github.com/jjm2473/luci-app-diskman.git' >>feeds.conf.default
-echo 'src-git oaf https://github.com/jjm2473/OpenAppFilter.git' >>feeds.conf.default
-echo 'src-git linkease_nas https://github.com/linkease/nas-packages.git' >>feeds.conf.default
-echo 'src-git linkease_nas_luci https://github.com/linkease/nas-packages-luci.git' >>feeds.conf.default
-echo 'src-git jjm2473_apps https://github.com/jjm2473/openwrt-apps.git' >>feeds.conf.default
+# echo 'src-git packages https://github.com/jjm2473/packages.git' >>feeds.conf.default
+# echo 'src-git luci https://github.com/jjm2473/luci.git' >>feeds.conf.default
+# echo 'src-git routing https://git.openwrt.org/feed/routing.git' >>feeds.conf.default
+# echo 'src-git telephony https://git.openwrt.org/feed/telephony.git' >>feeds.conf.default
+# echo 'src-git store https://github.com/linkease/istore.git' >>feeds.conf.default
+# echo 'src-git third https://github.com/jjm2473/openwrt-third.git' >>feeds.conf.default
+# echo 'src-git third_party https://github.com/linkease/istore-packages.git' >>feeds.conf.default
+# echo 'src-git diskman https://github.com/jjm2473/luci-app-diskman.git' >>feeds.conf.default
+# echo 'src-git oaf https://github.com/jjm2473/OpenAppFilter.git' >>feeds.conf.default
+# echo 'src-git linkease_nas https://github.com/linkease/nas-packages.git' >>feeds.conf.default
+# echo 'src-git linkease_nas_luci https://github.com/linkease/nas-packages-luci.git' >>feeds.conf.default
+# echo 'src-git jjm2473_apps https://github.com/jjm2473/openwrt-apps.git' >>feeds.conf.default
 git clone https://github.com/1877574385/luci-app-openclash package/luci-app-openclash
 
 
