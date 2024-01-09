@@ -25,14 +25,14 @@ sed -i 's/192.168.1.1/192.168.31.2/g' package/base-files/files/bin/config_genera
 # Add luci-app-amlogic
 # svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/luci-app-amlogic
 # echo 'src-git istore https://github.com/linkease/istore' >>feeds.conf.default
-> feeds.conf.default
+# > feeds.conf.default
 # echo 'src-git-full packages https://github.com/jjm2473/packages.git^b26cfeee1' >>feeds.conf.default
 # echo 'src-git-full luci https://github.com/jjm2473/luci.git^5b482a70ba' >>feeds.conf.default
 # echo 'src-git-full routing https://git.openwrt.org/feed/routing.git^777c115' >>feeds.conf.default
 # echo 'src-git-full telephony https://git.openwrt.org/feed/telephony.git^8143d9d' >>feeds.conf.default
 # echo 'src-git store https://github.com/linkease/istore.git^4c5098f' >>feeds.conf.default
 # echo 'src-git third https://github.com/jjm2473/openwrt-third.git^4a0f27e' >>feeds.conf.default
-# echo 'src-git third_party https://github.com/linkease/istore-packages.git^3874e89
+# echo 'src-git third_party https://github.com/linkease/istore-packages.git^3874e89' >>feeds.conf.default
 # echo 'src-git diskman https://github.com/jjm2473/luci-app-diskman.git^113509f' >>feeds.conf.default
 # echo 'src-git oaf https://github.com/jjm2473/OpenAppFilter.git^d8663f9' >>feeds.conf.default
 # echo 'src-git linkease_nas https://github.com/linkease/nas-packages.git^87bf6e6' >>feeds.conf.default
