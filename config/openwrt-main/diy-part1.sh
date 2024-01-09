@@ -15,7 +15,7 @@ echo 'src-git-full routing https://git.openwrt.org/feed/routing.git^777c115' >>f
 echo 'src-git-full telephony https://git.openwrt.org/feed/telephony.git^8143d9d' >>feeds.conf.default
 echo 'src-git store https://github.com/linkease/istore.git^4c5098f' >>feeds.conf.default
 echo 'src-git third https://github.com/jjm2473/openwrt-third.git^4a0f27e' >>feeds.conf.default
-echo 'src-git third_party https://github.com/linkease/istore-packages.git^3874e89
+echo 'src-git third_party https://github.com/linkease/istore-packages.git^3874e89' >>feeds.conf.default
 echo 'src-git diskman https://github.com/jjm2473/luci-app-diskman.git^113509f' >>feeds.conf.default
 echo 'src-git oaf https://github.com/jjm2473/OpenAppFilter.git^d8663f9' >>feeds.conf.default
 echo 'src-git linkease_nas https://github.com/linkease/nas-packages.git^87bf6e6' >>feeds.conf.default
